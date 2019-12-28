@@ -1,0 +1,197 @@
+
+@font-face{
+	font-family: 'segoeui';
+	src: url('fonts/segoeui.woff') format('woff');
+	
+}
+@font-face{
+	font-family: 'PRISTINA';
+	src: url('fonts/PRISTINA.woff') format('woff');
+	
+}
+
+body{
+	font-family: 'segoeui';
+	margin: 0;
+	padding: 0;
+
+}
+/*header css*/
+.header-area{
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)),url(images/home-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	height: 540px;
+}
+.header-area h1{
+	color: #E8EA0D;
+	font-size: 70px;
+	font-weight: bold;
+	font-family: PRISTINA;
+	margin: 0;
+}
+.header-area .header-title{
+	margin-top: 50px;
+}
+.header-area .header-title h2{
+	margin-bottom: 10px;
+	color: white;
+	background:rgba(0,0,0,.4);
+	opacity: 1.5;
+	padding: 5px;
+}
+.header-area .header-title .btn{
+	margin-top: 40px;
+	padding: 7px 40px;
+
+}
+.header-area ul{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.header-area ul li{
+
+}
+.header-area ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.header-two{
+	position: relative;
+	background: #F5F5F5;
+}
+.header-two h2{
+	font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+}
+.header-two h2:after{
+	content: ' ';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: black;
+	margin: 30px 0px 30px;
+
+}
+.header-two img{
+	position: absolute;
+	top: 30px;
+}
+
+.header-three h2{
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+.header-three h2:after{
+	content: ' ';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: white;
+	margin: 30px 0px 30px;
+}
+.header-three img{
+	margin-top: 50px;
+}
+
+/*about-us css*/
+
+.navbar{
+	padding: 0;
+}
+.naimul{
+	border-bottom: 3px solid #505050;
+	background: white;
+	
+}
+.naimul .logo{
+	font-family: PRISTINA;
+	font-size: 65px;
+	color:#505050;
+	text-decoration: none; 
+}
+.naimul-one li{
+	margin-right: 10px;
+}
+.naimul-one li:last-child{
+	margin-right: 0;
+}
+#main-menu ul{
+	margin: 0;
+	padding: 0;
+}
+#main-menu ul li a{
+	color: #505050;
+	font-size: 20px;
+	text-decoration: none;
+}
+.about-one h2{
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
+.about-one p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+/*contact css*/
+.contact-one h2{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+}
+
+.into {
+	font-family: PRISTINA;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	background: transparent;
+	border: none;
+	margin-top: 77px;
+}
+.naimul .nabin{
+	font-family: PRISTINA;
+	font-size: 65px;
+	color:#505050;
+	text-decoration: none; 
+}
+/*footer section*/
+.footer-section{
+	
+}
+
+
+/*media query*/
+
+@media(max-width: 991px){
+
+	.header-two h2:after{
+	content: ' ';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: black;
+	margin: 30px auto;
+	
+
+}
+
+.header-three h2:after{
+	content: ' ';
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: white;
+	margin: 30px auto;
+}
+
+}
